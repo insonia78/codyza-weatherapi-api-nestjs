@@ -1,7 +1,7 @@
 import { BadRequestException, Body, Controller, Get, Post, Query } from '@nestjs/common';
 
-import type { DashboardRequestBody, LocationSource } from './weather.models';
-import { WeatherProviderService } from './weather.service';
+import type { DashboardRequestBody, LocationSource } from './weather.models.js';
+import { WeatherProviderService } from './weather.service.js';
 
 @Controller('weather')
 export class WeatherController {

@@ -14,7 +14,7 @@ import {
   HourlyForecastPoint,
   WeatherDashboard,
   WeatherLocation
-} from './weather.models';
+} from './weather.models.js';
 
 interface CacheEntry<T> {
   timestamp: number;

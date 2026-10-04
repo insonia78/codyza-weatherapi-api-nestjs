@@ -1,4 +1,4 @@
-import { WeatherProviderService } from './weather.service';
+import { WeatherProviderService } from './weather.service.js';
 
 describe('WeatherProviderService', () => {
   const originalFetch = global.fetch;
