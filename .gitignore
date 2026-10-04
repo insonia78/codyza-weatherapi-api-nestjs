@@ -1,0 +1,50 @@
+# App dependencies and build output
+app/node_modules/
+app/dist/
+app/build/
+app/coverage/
+app/.nyc_output/
+
+# TypeScript build cache
+app/*.tsbuildinfo
+
+# Environment files
+app/.env
+app/.env.local
+app/.env.development.local
+app/.env.test.local
+app/.env.production.local
+
+# Logs
+app/logs/
+app/*.log
+app/npm-debug.log*
+app/pnpm-debug.log*
+app/yarn-debug.log*
+app/yarn-error.log*
+app/lerna-debug.log*
+
+# Temp files
+app/.temp/
+app/.tmp/
+app/pids/
+app/*.pid
+app/*.seed
+app/*.pid.lock
+app/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# IDE and OS files
+.DS_Store
+Thumbs.db
+app/.idea/
+app/.vscode/*
+!app/.vscode/settings.json
+!app/.vscode/tasks.json
+!app/.vscode/launch.json
+!app/.vscode/extensions.json
+app/.project
+app/.classpath
+app/.c9/
+app/*.launch
+app/.settings/
+app/*.sublime-workspace
